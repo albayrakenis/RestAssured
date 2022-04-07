@@ -12,15 +12,11 @@ public class SpartanTests {
 
         Response response = RestAssured.get(spartanBaseUrl + "/api/spartans" );
 
-
         System.out.println(response.statusCode());
 
-
         System.out.println(response.body().prettyPrint());
-
         //System.out.println(response.body().asString());
-
-
     }
+
 
 }
